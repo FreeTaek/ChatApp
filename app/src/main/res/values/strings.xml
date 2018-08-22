@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Android</string>
+    <string name="create_string">Create</string>
+    <string name="id_stirng">ID</string>
+    <string name="login_string">Login</string>
+    <string name="login_user_string">Login</string>
+    <string name="pw_user_string">PW</string>
+    <string name="log_in_string">Log-in</string>
+    <string name="sign_up_by_email_string">Sign up by Email</string>
+    <string name="e_mail_string">E-mail</string>
+    <string name="pw_string">PW</string>
+    <string name="name_string">Name</string>
+    <string name="nickname_string">NickName</string>
+    <string name="please_check_string">검사버튼을 눌러주세요.</string>
+    <string name="use_stirng">사용하기</string>
+    <string name="input_string">사용할 별명을 입력해 주세요.</string>
+    <string name="check_string">중복 검사</string>
+    <string name="name_check_string">확인</string>
+    <string name="chat_string">Chat</string>
+    <string name="nick_name_string">Nick Name</string>
+    <string name="start_string">START</string>
+    <string name="user_nick_name">사용하기</string>
+    <string name="set_name_string">닉네임을 설정해주세요</string>
+    <string name="send_string">Send</string>
+    <string name="send_message_string">Send</string>
+    <string name="tab_1_string">Tab 1</string>
+    <string name="tab_2_string">Tab 2</string>
+    <string name="random_chat_string">Random_chat</string>
+    <string name="friend_string">Friend</string>
+    <string name="chat_list_string">chat_list</string>
+    <string name="userroom_string">UserRoom</string>
+    <string name="myroom_string">MyRoom</string>
+    <string name="fuck_string">fuck</string>
+    <string name="test_string">test</string>
+    <string name="chat_text_string">text</string>
+</resources>

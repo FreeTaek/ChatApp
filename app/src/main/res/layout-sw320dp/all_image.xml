@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/allimageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        />
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#8013982b"
+        android:src="@drawable/album"
+        android:drawableRight="@drawable/download"
+        android:padding="10dp"
+        android:visibility="gone"
+        />
+
+
+</FrameLayout>

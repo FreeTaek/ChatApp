@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jt.android.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#4CAF50"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시작하기"
+        android:textSize="50sp"
+        android:textColor="#FFFF"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        />
+
+
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/btn_google_signin_light_normal_mdpi"
+        android:text="GOOGLE"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

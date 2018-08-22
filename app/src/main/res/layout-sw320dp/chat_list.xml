@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@drawable/ripple_recycler"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.github.siyamed.shapeimageview.CircularImageView
+        android:id = "@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/profile_user"
+        app:siBorderWidth="0.1dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/chat_name"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="65dp"
+        android:text="name"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+
+
+    <TextView
+        android:id="@+id/chat_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chat_text_string"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        />
+
+
+    <TextView
+        android:id="@+id/badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/badge"
+        android:gravity="center"
+        android:visibility="gone"
+        />
+
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:clickable="false"
+        android:focusable="false"
+        />
+
+</RelativeLayout>

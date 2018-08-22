@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="stirng.colorPrimary">#8d6a53</color>
+    <color name="green_dark">#33691E</color>
+    <color name="green">#558B2F</color>
+</resources>

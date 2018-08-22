@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UserActivity">
+
+    <item
+        android:id="@+id/textItem"
+        android:title="지우기"
+        app:showAsAction="always"
+        android:icon="@drawable/delete"
+        >
+    </item>
+
+    <item
+        android:id="@+id/setting_button"
+        android:title="설정"
+        app:showAsAction="always"
+        android:icon="@drawable/setting">
+    </item>
+
+</menu>
